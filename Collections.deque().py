@@ -6,7 +6,7 @@ for i in range(N):
     n = input().split()
     if n[0]=='append':
         d.append(int(n[1]))
-    elif n[0]=='appendleft':
+    elif n[0]== 'appendleft':
          d.appendleft(int(n[1]))
     elif n[0]=='pop':
         d.pop()
