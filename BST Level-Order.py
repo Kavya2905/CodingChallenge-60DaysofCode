@@ -11,7 +11,7 @@ class Solution:
         else:
             if data<=root.data:
                 cur=self.insert(root.left,data)
-                root.left=cur
+                root.left = cur
             else:
                 cur=self.insert(root.right,data)
                 root.right=cur
