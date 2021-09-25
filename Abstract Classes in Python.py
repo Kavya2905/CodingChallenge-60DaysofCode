@@ -12,7 +12,7 @@ class MyBook(Book):
         super().__init__(title, author)
         
     
-    def display(self):
+    def  display(self):
         print('Title:', title)
         print('Author:', author)
         print('Price:', price)
