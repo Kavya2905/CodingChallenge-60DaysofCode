@@ -9,7 +9,7 @@ int main() {
     char m;
     float n; 
     double o;
-    cin>>k>>l>>m>>n>>o;
+    cin >> k >> l>> m >> n >> o;
     printf("%d\n%ld\n%c\n%f\n%lf\n", k, l, m, n, o);
     return 0;
     
