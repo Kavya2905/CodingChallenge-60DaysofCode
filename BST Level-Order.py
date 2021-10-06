@@ -17,7 +17,7 @@ class Solution:
                 root.right=cur
         return root
 
-    def levelOrder(self,root):
+    def levelOrder(self, root):
         #Write your code here
         queue = [root]
         while len(queue) is not 0:
