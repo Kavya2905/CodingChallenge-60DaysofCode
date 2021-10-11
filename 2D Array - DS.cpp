@@ -17,7 +17,7 @@ vector<string> split(const string &);
 
 int main()
 {
-   int p, q, a[10][10], s = 0;
+   int p, q, a[10][10], s = -40000000;
     for(int i = 0; i < 6; i++){
         for(int j = 0; j < 6; j++)
         cin>> a[i][j];
