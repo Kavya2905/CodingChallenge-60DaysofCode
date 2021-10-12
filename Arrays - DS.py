@@ -17,7 +17,7 @@ def reverseArray(a):
     # Write your code here
     return reversed(a)
 
-if __name__ == '__main__':
+if __name__ ==  '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     arr_count = int(input().strip())
